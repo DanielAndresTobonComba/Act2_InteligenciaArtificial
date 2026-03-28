@@ -1,0 +1,14 @@
+joblib
+osmnx
+networkx
+folium
+numpy
+scikit-learn
+matplotlib
+branca
+geopandas
+shapely
+pyproj
+fiona
+rtree
+pandas
