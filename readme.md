@@ -8,7 +8,6 @@ Este sistema calcula rutas óptimas para el transporte de productos agrícolas c
 - **Red vial real** de washington y municipios aledaños
 - **Factores externos**: tráfico, clima, obras, retenes
 - **Múltiples objetivos**: distancia, tiempo, riesgo, calidad
-- **Algoritmos comparativos**: Dijkstra, Bellman-Ford, A*, IA
 
 ## 🏗️ Estructura del Proyecto
 
@@ -110,16 +109,8 @@ python src/main.py
 El sistema ofrece un menú interactivo con las siguientes opciones:
 
 1. **Inicializar sistema**: Descarga la red vial de washington
-2. **Entrenar IA**: Genera dataset y entrena modelos de IA
-3. **Calcular ruta específica**: Calcula y visualiza una ruta entre dos puntos
-4. **Simular factores externos**: Aplica condiciones especiales a la red vial
-5. **Comparar IA vs Rutas Reales**: Evalúa precisión de predicciones
-6. **Ver estadísticas**: Muestra información del sistema
-7. **Recargar modelo de IA**: Carga modelo pre-entrenado
-8. **Visualizar mapa completo**: Mapa general sin rutas específicas
-9. **Comparar algoritmos**: Compara todos los algoritmos en una ruta
-10. **Comparar en múltiples rutas**: Análisis estadístico extensivo
-11. **Ver tabla comparativa**: Resultados de última comparación
+2. **Calcular ruta específica**: Calcula y visualiza una ruta entre dos puntos
+
 
 ### Ejemplo de Uso
 
@@ -128,9 +119,8 @@ El sistema ofrece un menú interactivo con las siguientes opciones:
 # Después de ejecutar python src/main.py:
 
 # 1. Selecciona opción 1 para inicializar el sistema
-# 2. Luego opción 2 para entrenar la IA
-# 3. Usa opción 3 para calcular rutas específicas
-# 4. Visualiza resultados con opción 8 o 9
+# 2. Usa opción 3 para calcular rutas específicas
+
 ```
 
 ## 📈 Resultados y Métricas
@@ -172,9 +162,6 @@ El sistema proporciona:
 - Reintentar la descarga
 - Usar red vial previamente guardada
 
-### IA no entrenada
-- Ejecutar opción 2 del menú primero
-- Asegurar suficiente cantidad de rutas calculadas
 
 ### Visualización de mapas
 - Verificar que se generen archivos HTML
@@ -183,15 +170,6 @@ El sistema proporciona:
 ## 📄 Licencia
 
 Este proyecto es para fines educativos y de investigación.
-
-## 👥 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature
-3. Commit tus cambios
-4. Push a la rama
-5. Abre un Pull Request
 
 ---
 
